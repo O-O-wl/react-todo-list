@@ -14,10 +14,9 @@
 
   -  **<font color="purple">이용된 라이브러리 : open-color , node -sass , sass-loader , classnames</font>**
 
----
-## node-module 에서 `scss`를 번들링하기 위홰서 webpack 의 `sass-loader`의 초기설정, ##
-## import문을 간결하게 하기위한 Paths 설정이 필요함 ## 
-
+--- 
+## node-module 에서 `scss` 를 번들링하기 위홰서 webpack 의 `sass-loader`의 초기설정,  import문을 간결하게 하기위한 Paths 설정이 필요함 ## 
+ --- 
 **1 . 개발시에는 유저 인터페이스 디자인과 구성을 먼저 구현하고 그다음 상태를 연동한다.**
 
 **2. 상태연동시에는 상태를 필요로 하는 컴포넌트들을 감싸는 상위 컴포넌트에 상태관리를 정의하는 것이 간편하다.**
