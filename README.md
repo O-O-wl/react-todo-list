@@ -15,6 +15,7 @@
   -  **<font color="purple">이용된 라이브러리 : open-color , node -sass , sass-loader , classnames</font>**
 
 ---
+## node-module 에서 `scss`를 번들링하기 위홰서 webpack 의 `sass-loader`의 초기설정 과 import문을 간결하게 하기위한 Paths 설정이 필요함 # 
 
 **1 . 개발시에는 유저 인터페이스 디자인과 구성을 먼저 구현하고 그다음 상태를 연동한다.**
 
