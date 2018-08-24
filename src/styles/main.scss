@@ -1,0 +1,8 @@
+@import 'utils';
+
+//export 경로로 '/src/style'로 지정해두었기 때문에 쉽게 import 할 수 있다.
+
+
+body{
+    background: $oc-gray-1;
+}

@@ -1,0 +1,45 @@
+@import 'utils';
+
+.todo-input{
+border-top:1px solid $oc-gray-2;
+border-bottom: 1px solid $oc-gray-2;
+display : flex; // 손쉬운 레이아웃
+padding : 1rem;
+input {
+    flex:1; // 부모요소에서 다른 요소를 제외한 나머지 공간 차지
+    font-size: 1.1rem;
+    outline:none;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid $oc-gray-4;
+    &:focus {
+        border-bottom : 1px solid $oc-cyan-6;
+        
+    }
+}
+
+.add-button{
+    width: 5rem;
+    height:2rem;
+    margin-left:1rem;
+    border: 1px solid $oc-green-7;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center; // 아이템을 가운데로 정렬 
+    justify-content: center; // 
+    cursor:pointer;   // 손가락모양의 커서
+    &:hover{  
+        background: $oc-green-7;
+        color:white;}
+    &:active{
+        background:$oc-green-9;
+    }
+        
+}
+}
+
+
+    
+
+
